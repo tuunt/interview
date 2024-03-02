@@ -1,0 +1,21 @@
+﻿<!-- Views/Home/Index.cshtml -->
+@model WebApplication1.Models.ResponeModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animal</title>
+</head>
+<body>
+    <h1>Animal</h1>
+    <ul id="Animal"></ul>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var result = @Html.Raw(Json.Serialize(Model))
+                $("#Animal").append(`<img src='${result.message}'/>`)
+        })
+    </script>
+</body>
+</html>

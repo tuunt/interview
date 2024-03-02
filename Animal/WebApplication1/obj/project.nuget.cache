@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lKWGdFYXYZdKDs9g9E0p79LAo7K2EmoRSCJmbt04f2/tG9SX1mhtUgLqjFrLa2zKv0jcG1TkXPImFVUW4wSDDA==",
+  "success": true,
+  "projectFilePath": "F:\\Interview\\interview-\\Animal\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Thanh Tuu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Thanh Tuu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
